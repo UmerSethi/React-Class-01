@@ -1,0 +1,230 @@
+Video # 31
+Video Duration => 2:19:19       
+
+
+     REACT
+
+(1)=> Component => block of quote jo hm bar bar hm call kr skyn ....
+
+(2) =>Single Page Application .
+
+
+----------------------------------------------
+
+FOR INTERVIEW PURPOSE:-
+=======================
+
+SPA vs MPA
+
+1) Single Page Application.
+2)Multiple Page Application.
+
+
+------------------------------------------------
+
+
+(*)=>    npx create-react-app learning-react    ......kafi time lagy ga phir ja kr hoga
+
+
+------------------------------------------------
+
+(*)=>   npm start    ....sirf start krny k liye (localhost:3000)
+
+
+-----------------------------------------------
+
+
+{}package.json => "dependencies":
+
+developer hmesha {}package.json ko check kry ga k knsi libraries use hoi wi h ....jsy agr bootstrap wagera
+
+
+-----------------------------------------------
+
+node_modules => github py push nhi hoty ...es liye jb bhi koi dosra develper aye ga wo hmesha ...CMD m ja kr ek command chaly ga "npm install"
+...es trha jo jo library use hoi wi hogi wo node_modules k folder m ajye gi .
+
+
+------------------------------------------------
+     ==============
+          src
+     ==============
+
+
+
+
+-----------------------------------------------
+
+MOST IMPORTANT FILE IS index.js   :-
+
+index.js
+
+(1) =>
+
+
+
+-----------------------------------------------
+  
+========
+App.js :-
+========
+
+
+===================
+Function Component
+===================
+
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+  <h1>Hello World</h1>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+           ======
+             OR
+           ======
+
+
+
+=================
+Class Component
+=================
+
+import React from 'react';
+import './App.css';
+
+class App extends React.Component {
+  render(){
+    return(
+      <div>
+
+         <h1>Hello World</h1>
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+
+
+
+
+========================
+Acha idhr m ny 2 trha sy Hello World likha h ....y dono method execute hongy 👍🏽
+
+
+
+
+
+
+
+
+
+-----------------------------------------------
+
+
+
+
+
+
+
+
+
+Javascipt use krny k liye hm use krty h curly brackets "{}"
+
+
+===============
+FOR EXAMPLE :-
+===============
+
+
+
+import React from 'react';
+import './App.css';
+
+class App extends React.Component {
+  render(){
+
+    let name = "Muhammad Umer";         // For example m idhr comment krdo ...to screen py mry pass Error ajye ga 👍🏽
+    return(
+
+      <div>
+
+         <h1>{name}</h1>
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+===============
+FOR EXAMPLE 2:-
+===============
+
+
+import React from 'react';
+import './App.css';
+
+class App extends React.Component {
+  render(){
+
+    let firstName = "Muhammad Umer";
+    let lastName = "Saleem";
+    return(
+
+      <div>
+
+         <h1>{`${firstName} ${lastName}`}</h1>
+
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+
+===============
+FOR EXAMPLE 3:-
+===============
+
+  import React from 'react';
+import './App.css';
+
+class App extends React.Component {
+  render(){
+
+    let firstName = "Muhammad Umer";
+    let lastName = "Saleem";
+    let fullName = firstName +" "+lastName;
+    let arr = [1,2,3,4,5]
+
+    return(
+
+      <div>
+
+         <h1>{`${firstName} ${lastName}`}</h1>
+         <h1>{arr}</h1>
+         <h1>{fullName}</h1>
+      </div>
+    )
+  }
+}
+
+export default App;
